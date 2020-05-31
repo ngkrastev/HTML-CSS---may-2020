@@ -1,0 +1,32 @@
+html {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.ul1 {
+    list-style-type: square;
+}
+
+.ul2 {
+    list-style-type: disc;
+}
+
+.ul3 {
+    list-style-type: circle;
+}
