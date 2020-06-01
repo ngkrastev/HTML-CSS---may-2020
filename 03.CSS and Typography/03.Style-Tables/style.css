@@ -2,16 +2,29 @@ table, td, th {
     border: 1px solid rgb(221,221,221);
 }
 
-table {
-    width: 100%;
+thead {
+    background-color: rgb(221,221,221);
+    text-align: left;
 }
 
+td, th {
+    padding: 5px;
+}
 
-tr:hover {
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) td {
+    background: rgb(241,241,241);
+}
+
+tbody tr:hover {
     background: rgb(0,0,0) !important;
     color: rgb(255,255,255) !important;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background: rgb(241,241,241);
 }
