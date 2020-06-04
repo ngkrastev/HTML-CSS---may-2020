@@ -12,57 +12,66 @@
             <fieldset>
                 <legend>Customer Details</legend>
                 
-                <label for="first-name">First Name</label>                
-                <input type="text" id="first-name" name="first-name" placeholder="George" autofocus />
-                <br>
-                <br>
+                <label for="first-name">
+                    <span class="label-text">First Name</span>
+                    <input type="text" id="first-name" name="first-name" placeholder="George" autofocus />
+                </label>
+                    
+                <label for="last-name">
+                    <span class="label-text">Last Name</span>
+                    <input type="text" id="last-name" name="last-name" placeholder="Devis" />
+                </label>
                 
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Devis" />
-                <br>
-                <br>
+                <label for="gender">
+                    <span class="label-text">Male</span>
+                    <input type="radio" id="gender-male" name="gender" />
+                    
+                    <span class="label-text">Female</span>
+                    <input type="radio" id="gender-female" name="gender" />
+                    
+                    <span class="label-text">Other</span>
+                    <input type="radio" id="gender-other" name="gender" /> 
+                </label>
+              
+                <label for="method-contact">
+                    <span class="label-text">Preferred contact method:</span>
+                    
+                    <span class="label-text">Email </span>
+                    <input type="radio" id="method-email" name="method" />
+                    
+                    <span class="label-text">Phone</span>
+                    <input type="radio" id="method-phone" name="method" />
+                </label>
 
-                <label for="gender"></label>
-                Male <input type="radio" id="gender-male" name="gender" />
-                Female <input type="radio" id="gender-female" name="gender" />
-                Other <input type="radio" id="gender-other" name="gender" />               
-                <br>
-                <br>
-                
-                <label for="method-contact">Preferred contact method:</label>
-                Email <input type="radio" id="method-email" name="method" />
-                Phone <input type="radio" id="method-phone" name="method" />
-                <br>
-                <br>
+                <label for="email">
+                    <span class="label-text">Email</span>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" />
+                </label>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="your@email.com" />
-                <br>
-                <br>
+                <label for="phone">
+                    <span class="label-text">Phone</span>
+                    <input type="tel" id="phone" name="phone" placeholder="+359885236225" />
+                </label>
 
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone" placeholder="+359885236225" />
-                <br>
-                <br>
+                <label for="town">
+                    <span class="label-text">Town</span>
+                    <select id="town" name="town">
+                        <option value="Varna">Varna</option>
+                        <option value="Plovdiv">Plovdiv</option>
+                        <option value="Burgas">Burgas</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Pleven">Pleven</option>
+                    </select>
+                </label>
 
-                <label for="town">Town</label>
-                <select id="town" name="town">
-                    <option value="Varna">Varna</option>
-                    <option value="Plovdiv">Plovdiv</option>
-                    <option value="Burgas">Burgas</option>
-                    <option value="Sofia">Sofia</option>
-                    <option value="Pleven">Pleven</option>
-                </select>
-                <br>
-                <br>
+                <label for="age">
+                    <span class="label-text">Age</span>
+                    <input type="number" id="age" name="age" min="18" max="70" />
+                </label>
 
-                <label for="age">Age</label>
-                <input type="number" id="age" name="age" min="18" max="70" />
-                <br>
-                <br>
-
-                <label for="programming language">Programming language</label>
-                <input list="programming" id="programming-lang" name="programming" />
+                <label for="programming language">
+                    <span class="label-text">Programming language</span>
+                    <input list="programming" id="programming-lang" name="programming" />
                     <datalist id="programming">
                         <option value="Java" />
                         <option value="PHP" />
@@ -72,22 +81,20 @@
                         <option value="Ruby" />
                         <option value="Other" />
                     </datalist>
-                <br>
-                <br>
+                </label>
 
-                <label for="textarea"></label>
-                <textarea placeholder="More information..." rows="5" cols="20"></textarea>
-                <br>
-                <br>
+                <label for="textarea">
+                    <textarea placeholder="More information..." rows="5" cols="20"></textarea>
+                </label>
 
-                <label for="checkbox"></label>
-                <input type="checkbox" id="checkbox1" name="checkbox" value="checked"/> I agree the Terms and Conditions
-                <br>
-                <br>
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox1" name="checkbox" value="checked"/>
+                    <span class="label-text">I agree the Terms and Conditions</span>
+                </label>
 
-                <label for="button"></label>
-                <input type="submit" id="submit-but" name="submit-but" value="Send" />
-
+                <label for="button">
+                    <input type="submit" id="submit-but" name="submit-but" value="Send" />
+                </label>
             </fieldset>
         </form>
     </body>
