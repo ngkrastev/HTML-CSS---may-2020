@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
+}
+
+.headtitle {
+    display: inline-block;
+    font-size: 36px;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul, li, a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: green;
+    padding: 0 5px;
+}
+
+.menu-bar {
+    margin-left: 50px;
+}
+
+hr {
+    border: 1.2px solid black;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin-bottom: 30px;
+}
