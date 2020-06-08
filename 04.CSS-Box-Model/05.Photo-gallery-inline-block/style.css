@@ -20,5 +20,14 @@ div {
     display: flex
 }
 
+.center {
+    /* display: table-cell; */
+    vertical-align: middle;
+}
+
+.center-middle {
+    vertical-align: middle;
+}
+
 
 
