@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+div {
+    text-align: center;
+}
+
+.gallery li {
+    display: inline-block;
+    list-style: none;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.gallery li .second {
+    display: flex
+}
+
+
+
