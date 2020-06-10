@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    margin-left: 50px;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+article {
+    display: block;
+    width: 900px;
+    float: left;
+    line-height: 1.5;
+}
+
+nav {
+    display: block;
+}
+
+aside {
+    display: block;
+    max-width: 300px;
+    float: left;
+}
+
+.side {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
