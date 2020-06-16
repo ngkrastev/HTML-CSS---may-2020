@@ -1,0 +1,69 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.viewport {
+    display: block;
+    position: relative;
+}
+
+section .card {
+    position: absolute;
+}
+
+.viewport.wall1 {
+    height: 500px;
+    background: linear-gradient(to right,  #1e5799 0%,#a7ccf9 49%);
+}
+
+.img-one {
+    /* position: absolute; */
+    width: 250px;
+    height: 150px;
+}
+
+.card.one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport.wall2 {
+    height: 500px;
+    background: linear-gradient(to right, #6e29ce 0%,#ed9200 58%);
+}
+
+.img-two {
+    width: 250px;
+    height: 400px;
+}
+
+.card.two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-link {
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    transform: translate(-120%, 30%);
+    color: white;
+}
+
+.fa-star {
+    position: absolute;
+    top: 93%;
+    left: 100%;
+    transform: translate(-120%, 30%);
+    color: white;
+}
