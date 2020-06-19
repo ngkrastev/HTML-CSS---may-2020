@@ -1,0 +1,11 @@
+•	Change the document title to "ABC Game"
+•	Create a div with class container and twelve span tags inside
+•	Type the letters in the spans EXACTLY as they are in the file text.txt
+•	Use font-family: Helvetica, sans-serif, with font-size: 20px
+•	Change the div display property to flex and align the items in center
+•	Set on the div max-width: 15vw and height 35rem
+•	The span must have
+o	Border width - 1px
+o	Border color - black
+o	Border style - solid
+•	To arrange the letters, use the flex property order
