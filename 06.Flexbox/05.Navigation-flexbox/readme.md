@@ -1,0 +1,9 @@
+•	Change the document title to "Navigation - Flexbox"
+•	Divide the body into header and main tag
+•	The underline in the header must have
+o	Border width - 2px
+o	Border color - rgb(0, 0, 0)
+o	Border style - solid
+•	The display property of the header must be flex
+•	The unordered list in the header must have display property flex
+•	The anchors text color in the navigation must be rgb(0, 153, 0)
