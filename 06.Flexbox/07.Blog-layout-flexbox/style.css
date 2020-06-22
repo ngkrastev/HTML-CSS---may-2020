@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    margin: 2% 5%;
+}
+
+img {
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+header {
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    float: right;
+    margin-left: 10px;
+}
+
+main {
+    flex-basis: 60%;
+}
+
+aside {
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.second-image {
+    clear: both;
+}
+
+blockquote {
+    margin: 0 0 20px 20px;
+    float: right;
+    width: 40%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: gray;
+    border-left: 3px solid gray;
+    padding-left: 30px;
+}
+
+blockquote p {
+    margin: 0 0 10px 0;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+
+.pull-left {
+    width: 60%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.third-image {
+    clear: both;
+}
+
+.img2 {
+    float: left;
+    margin-right: 10px;
+}
+
+aside section nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
