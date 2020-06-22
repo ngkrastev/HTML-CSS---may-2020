@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    margin: 2% 2%;
+    display: flex;
+    background-color:rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    border: 5px solid black;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+}
