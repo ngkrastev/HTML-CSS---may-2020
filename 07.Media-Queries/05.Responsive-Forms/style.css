@@ -1,0 +1,73 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    border: 2px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 grey;
+}
+
+form fieldset p {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+form legend {
+    font-weight: bold;
+    border: 2px solid #999;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 grey;
+    padding-right: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form label {
+    padding: 5px;
+}
+
+form input[type="password"],
+form input[type="text"] {
+    padding: 5px 5px;
+    border: 2px solid #999;
+    border-radius: 5px;
+}
+
+.icons {
+    position: relative;
+}
+
+.user-icon {
+    position: absolute;
+    left: 85px;
+    top: 10px;
+    overflow: hidden;
+}
